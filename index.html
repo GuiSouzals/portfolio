@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guilherme Souza — Desenvolvimento de Sistemas e Sites</title>
+  <meta name="description" content="Desenvolvedor Full Stack em Belo Horizonte. Sistemas web, sites e integrações sob medida para o seu negócio." />
+  <meta property="og:title" content="Guilherme Souza — Desenvolvimento de Sistemas e Sites" />
+  <meta property="og:description" content="Sistemas web, sites e integrações sob medida para o seu negócio." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="progress" aria-hidden="true"></div>
+  <div id="cursor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-logo" href="#topo">Guilherme&nbsp;Souza</a>
+    <nav class="nav-links">
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#processo">Processo</a>
+    </nav>
+    <div class="nav-right">
+      <a class="btn btn-nav" href="#contato">Iniciar conversa</a>
+      <button id="menu-btn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav id="mobile-menu" aria-hidden="true">
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#processo">Processo</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main id="topo">
+
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="dots" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="kicker reveal">Desenvolvimento de software sob medida</p>
+        <h1>
+          <span class="line"><span class="line-in reveal d1">Sistemas e sites que</span></span>
+          <span class="line"><span class="line-in reveal d2">fazem o seu negócio</span></span>
+          <span class="line"><span class="line-in reveal d3"><em>funcionar melhor</em>.</span></span>
+        </h1>
+        <p class="hero-sub reveal d4">
+          Sou o Guilherme — desenvolvedor full stack em Belo Horizonte. Projeto e construo
+          sistemas de gestão, sites e integrações com a engenharia de quem trabalha todos os
+          dias em plataformas de grande porte.
+        </p>
+        <div class="hero-cta reveal d5">
+          <a class="btn btn-primary" href="https://wa.me/5531984800111?text=Ol%C3%A1%2C%20Guilherme.%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">Conversar sobre um projeto</a>
+          <a class="link-arrow" href="#projetos">Ver trabalhos<span aria-hidden="true">&nbsp;→</span></a>
+        </div>
+        <dl class="hero-facts reveal d6">
+          <div><dt>Formação</dt><dd>Superior na área de tecnologia</dd></div>
+          <div><dt>Especialização</dt><dd>Pós em Engenharia de Software + IA <span class="andamento">(em andamento)</span></dd></div>
+          <div><dt>Base</dt><dd>Belo Horizonte / atendimento remoto</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- FAIXA DE TECNOLOGIAS -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Java</span><i>·</i><span>Spring Boot</span><i>·</i><span>React</span><i>·</i><span>Next.js</span><i>·</i><span>Angular</span><i>·</i><span>Vue</span><i>·</i><span>TypeScript</span><i>·</i><span>.NET</span><i>·</i><span>PostgreSQL</span><i>·</i><span>Elasticsearch</span><i>·</i><span>Microsserviços</span><i>·</i>
+        <span>Java</span><i>·</i><span>Spring Boot</span><i>·</i><span>React</span><i>·</i><span>Next.js</span><i>·</i><span>Angular</span><i>·</i><span>Vue</span><i>·</i><span>TypeScript</span><i>·</i><span>.NET</span><i>·</i><span>PostgreSQL</span><i>·</i><span>Elasticsearch</span><i>·</i><span>Microsserviços</span><i>·</i>
+      </div>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section">
+      <div class="section-head reveal">
+        <span class="sec-num">01</span>
+        <h2>Serviços</h2>
+        <p>Do site institucional ao sistema completo de gestão — você descreve o problema, eu cuido da tecnologia de ponta a ponta.</p>
+      </div>
+      <div class="serv-grid">
+        <article class="serv reveal">
+          <h3>Sistemas sob medida</h3>
+          <p>Estoque, vendas, agendamentos, financeiro, cadastros. Um sistema desenhado para a sua operação, acessível do computador e do celular.</p>
+        </article>
+        <article class="serv reveal">
+          <h3>Sites e landing pages</h3>
+          <p>Presença profissional, rápida e otimizada para o Google — feita para transformar visitantes em clientes.</p>
+        </article>
+        <article class="serv reveal">
+          <h3>APIs e integrações</h3>
+          <p>Pagamentos, nota fiscal, WhatsApp, e-mail, planilhas. Conecto seus sistemas para os dados fluírem sem trabalho manual.</p>
+        </article>
+        <article class="serv reveal">
+          <h3>Automação de processos</h3>
+          <p>Tarefas repetitivas que consomem horas da equipe viram rotinas automáticas, com relatórios e alertas.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="section-head reveal">
+        <span class="sec-num">02</span>
+        <h2>Projetos</h2>
+        <p>Sistemas reais, desenvolvidos por mim do banco de dados à interface.</p>
+      </div>
+
+      <article class="case reveal">
+        <div class="case-media"><img src="assets/clinica-dashboard.png" alt="Painel do sistema de gestão para clínica" loading="lazy" /></div>
+        <div class="case-body">
+          <p class="case-tag">Saúde</p>
+          <h3>Gestão completa para clínica</h3>
+          <p>
+            Plataforma para clínica de medicina integrativa: agenda de consultas, cadastro de
+            pacientes e profissionais, controle financeiro e portal exclusivo onde o paciente
+            acompanha consultas e conteúdos.
+          </p>
+          <ul>
+            <li>Agenda com confirmação de consultas</li>
+            <li>Faturamento diário e mensal em tempo real</li>
+            <li>Portal do paciente com acesso próprio</li>
+          </ul>
+          <p class="case-stack">Next.js · React · TypeScript · Tailwind</p>
+        </div>
+      </article>
+
+      <article class="case case-flip reveal">
+        <div class="case-media"><img src="assets/elitedrop-dashboard.png" alt="Painel do sistema Elite Drop" loading="lazy" /></div>
+        <div class="case-body">
+          <p class="case-tag">Varejo</p>
+          <h3>Elite Drop — gestão de loja de calçados</h3>
+          <p>
+            Sistema para loja de tênis: painel com lucro e alertas de estoque baixo, leitura de
+            código de barras pela câmera do celular, vendas, devoluções e fechamento de caixa.
+            Feito para o ritmo do balcão.
+          </p>
+          <ul>
+            <li>Painel de lucro, mais vendidos e estoque baixo</li>
+            <li>Leitor de código de barras no navegador</li>
+            <li>Estoque, vendas, devoluções e caixa</li>
+          </ul>
+          <p class="case-stack">Next.js · PostgreSQL · Prisma · Cloudinary</p>
+        </div>
+      </article>
+
+      <div class="gallery reveal">
+        <figure><img src="assets/elitedrop-produtos.png" alt="Catálogo de produtos com estoque por cor e tamanho" loading="lazy" /><figcaption>Elite Drop — produtos e estoque</figcaption></figure>
+        <figure><img src="assets/elitedrop-caixa.png" alt="Fechamento de caixa diário" loading="lazy" /><figcaption>Elite Drop — caixa do dia</figcaption></figure>
+        <figure><img src="assets/elitedrop-estoque.png" alt="Movimentações de estoque" loading="lazy" /><figcaption>Elite Drop — movimentações</figcaption></figure>
+        <figure><img src="assets/clinica-agenda.png" alt="Agenda de consultas" loading="lazy" /><figcaption>Clínica — agenda de consultas</figcaption></figure>
+        <figure><img src="assets/clinica-pacientes.png" alt="Gestão de pacientes" loading="lazy" /><figcaption>Clínica — gestão de pacientes</figcaption></figure>
+        <figure><img src="assets/clinica-financeiro.png" alt="Painel financeiro" loading="lazy" /><figcaption>Clínica — painel financeiro</figcaption></figure>
+      </div>
+      <p class="fine-print reveal">Capturas com dados fictícios de demonstração — nenhuma informação real de clientes é exposta.</p>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia" class="section">
+      <div class="section-head reveal">
+        <span class="sec-num">03</span>
+        <h2>Experiência corporativa</h2>
+        <p>Atuação profissional em sistemas críticos de alto volume. Por confidencialidade (LGPD), descrevo o contexto e a tecnologia — não os nomes.</p>
+      </div>
+      <div class="xp-rows">
+        <article class="xp-row reveal">
+          <div>
+            <h3>Plataforma de mensageria e campanhas em larga escala</h3>
+            <p>Empresa de tecnologia — processamento massivo de documentos, e-mails e SMS com microsserviços, filas e monitoramento centralizado de logs.</p>
+          </div>
+          <p class="xp-stack">Java 21 · Spring Boot 3 · React · Elasticsearch · PostgreSQL</p>
+        </article>
+        <article class="xp-row reveal">
+          <div>
+            <h3>Hub de integração do setor automotivo</h3>
+            <p>Empresa de tecnologia — ecossistema de microsserviços para cadastro, envio, distribuição e registro de contratos veiculares, com automação RPA.</p>
+          </div>
+          <p class="xp-stack">Java · Spring Cloud · Angular · .NET</p>
+        </article>
+        <article class="xp-row reveal">
+          <div>
+            <h3>Sistema educacional de órgão público de MG</h3>
+            <p>Órgão público de Minas Gerais — frontend moderno e microsserviços de autenticação, gateway e integrações para progressão de carreira de servidores.</p>
+          </div>
+          <p class="xp-stack">Vue 3 · Vuetify · Java · Spring Cloud Gateway · JWT</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESSO -->
+    <section id="processo" class="section">
+      <div class="section-head reveal">
+        <span class="sec-num">04</span>
+        <h2>Como trabalho</h2>
+        <p>Processo simples e transparente, do primeiro contato à entrega.</p>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><h3>Conversa</h3><p>Você descreve o problema ou a ideia, sem precisar de termos técnicos. Eu faço as perguntas certas.</p></li>
+        <li class="reveal"><h3>Proposta</h3><p>Escopo, prazo e investimento por escrito. Sem surpresas no final.</p></li>
+        <li class="reveal"><h3>Desenvolvimento</h3><p>Entrego em etapas e você acompanha o sistema funcionando desde cedo.</p></li>
+        <li class="reveal"><h3>Entrega e suporte</h3><p>Publicação, treinamento de quem vai usar e acompanhamento para ajustes e evolução.</p></li>
+      </ol>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact">
+      <div class="contact-inner reveal">
+        <h2>Tem um projeto em mente?</h2>
+        <p>Me conte por mensagem o que você precisa. A conversa inicial não custa nada e você sai dela com um caminho claro.</p>
+        <div class="contact-actions">
+          <a class="btn btn-light" href="https://wa.me/5531984800111?text=Ol%C3%A1%2C%20Guilherme.%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener">WhatsApp — (31) 98480-0111</a>
+          <a class="link-arrow light" href="mailto:guigui092808@gmail.com">guigui092808@gmail.com<span aria-hidden="true">&nbsp;→</span></a>
+        </div>
+        <p class="contact-social">
+          <a href="https://www.linkedin.com/in/guilherme-souza-2a905a177/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/GuiSouzals" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="ano"></span> Guilherme Souza — Belo Horizonte/MG</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
